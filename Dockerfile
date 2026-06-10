@@ -16,7 +16,7 @@ RUN apt-get update \
 
 RUN npm install -g openclaw@2026.6.1
 RUN npm install -g clawhub@latest
-
+RUN npm install -g @openclaw/whatsapp
 WORKDIR /app
 
 COPY package.json pnpm-lock.yaml ./
